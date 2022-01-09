@@ -4,9 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+function AppTwo(){
+  return <h1>hello</h1>;
+}
+
 ReactDOM.render(
+  //React.createElement("a",{href:'#'},"click me!"),
   <React.StrictMode>
     <App />
+    <AppTwo/>
   </React.StrictMode>,
   document.getElementById('root')
 );
